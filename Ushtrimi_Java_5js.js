@@ -17,7 +17,7 @@ function validate(){
         return false;
     }
 
-    if(pass.length < 9){
+    if(pass.length < 8){
         pass_error1.style.display = "block";
         return false;
     }
