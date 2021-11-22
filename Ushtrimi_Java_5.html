@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Ushtrimi 5</title>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Ushtrime_Java_6/Ushtrimi_Java_5css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:600,700,900" rel="stylesheet">
+    <script src="/Ushtrime_Java_6/Ushtrimi_Java_5js.js"></script>
+    <body>
+      <div class="menubar">
+        <a class="a1" href="#home">Home</a>
+        <a class="a2" href="#aboutus">About Us</a>
+        <a class="a2" href="#contact">Contact</a>
+      </div>
+        <div class="loginbox">
+            <h1>Login Form</h1>
+            <form name="form" onsubmit="return false;">
+               
+                <input id="e-input" type="email" name="email" placeholder="Enter Email">
+                
+                <div id="email_error">Ju lutem mbushni hapsiren tek emaili!</div>
+                <input name="password" id="p-input" type="password" placeholder="Enter Password">  
+                <div id="pass_error">Ju lutem mbushni hapsiren tek passwordi!</div>
+                <div id="pass_error1">Passwordi duhet te permbaje mbi 8 karaktere!</div>
+                <input type="submit" value="Submit" onclick="validate()">
+                <br>
+   
+                <div id="btn" class="text-center">
+               <button type="button" class="btn btn-primary btn-circle btn-sm"><i class="fa fa-facebook"></i></button>
+               <button type="button" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-google"></i></button>
+               <button type="button" class="btn btn-info btn-circle btn-sm"><i class="fa fa-twitter"></i></button>
+               </div>
+            </form>
+        </div>
+        
+    </body>
+</head>

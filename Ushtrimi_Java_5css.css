@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: steelblue;
+  }
+  
+  
+  .loginbox {
+    border-radius: 25px;
+    width: 350px;
+    height: 380px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="email"],
+  input[type="password"] {
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(226, 223, 223, 0.877);
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 13px;
+    margin: 0 auto;
+  
+  }
+  .loginbox input[type="submit"] {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    height: 40px;
+    color:white;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  #button {
+    border-radius: 30px;
+  }
+  
+  #btn{
+    position: absolute; 
+    bottom: -35px; 
+    padding: 5px;
+    margin: 0px 55px;
+    align-items: center;
+    border-radius: 5px"
+  }
+  .btn-circle.btn-sm { 
+             width: 40px; 
+             height: 40px; 
+             padding: 2px 0px; 
+             border-radius: 25px; 
+             font-size: 14px; 
+             text-align: center;
+             
+             margin: 8px;
+         }
+         .menubar{
+          
+          font-weight: bold;
+        }
+        .a1{
+         margin-left: 16px;
+          word-spacing: normal;
+          color: black;
+        }
+        .a2{
+          margin-left: 16px;
+          color: rgb(134, 85, 67);
+          
+        }
+        #email_error{
+            display: flex;
+            margin-top: 8px;
+            border-radius: 3px;
+            background: rgba(255, 0, 0, 0.24);
+            text-align: center;
+            padding: 5px 8px;
+            font-size: 13px;
+            color: red;
+            display: none;
+        }
+        #pass_error{
+            display: flex;
+            margin-top: 8px;
+            border-radius: 3px;
+            background: rgba(255, 0, 0, 0.24);
+            text-align: center;
+            padding: 5px 8px;
+            font-size: 13px;
+            color: red;
+            display: none;
+        }
+        #pass_error1{
+            display: flex;
+            margin-top: 8px;
+            border-radius: 3px;
+            background: rgba(255, 0, 0, 0.24);
+            text-align: center;
+            padding: 5px 8px;
+            font-size: 13px;
+            color: red;
+            display: none;
+        }
+        }
